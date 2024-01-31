@@ -1,0 +1,48 @@
+{
+  "name": "new_hrms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --trace-warnings server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "buffer": "^6.0.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.2",
+    "fast-csv": "^4.3.6",
+    "fcm-node": "^1.6.1",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.1.0",
+    "image-thumbnail": "^1.0.15",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^2.6.6",
+    "nodemailer": "^6.9.8",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "process": "^0.11.10",
+    "sequelize": "^6.35.0",
+    "simple-thumbnail": "^1.6.5",
+    "upload": "^1.1.1",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
